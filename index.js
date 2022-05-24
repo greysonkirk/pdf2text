@@ -18,11 +18,7 @@ app.post("/extract-text", (req, res) => {
     });
 });
 
-ReadText('./roe.pdf').then(text => {
-    console.log(text);
-}).catch(err => {
-    console.log(err);
-})
+
 app.listen(3000);
 // // Start the API server
 // app.listen(PORT, function () {
